@@ -1,6 +1,7 @@
 mod q1_is_even;
 mod q2_fibnth_number;
 mod q3_characters_in_str;
+mod understand_struct;
 
 fn main() {
     // This portion is for q1 that I got from harkirat's course
@@ -12,10 +13,19 @@ fn main() {
     let ans_fib: u32 = q2_fibnth_number::fib(33);
     println!("The 10th Fibonacci number is: {}", ans_fib);
 
-
+//  Learn 
     let str = String:: from("Sudibya");
     let get_len = q3_characters_in_str:: characteres_in_str(str);
     println!("The length of the string str is {}", get_len);
+
+
+
+    //understanding the Structs
+
+    understand_struct::get_user();
+
+
+    //*************************** 
 
 
 }
